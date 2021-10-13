@@ -1,4 +1,5 @@
-
+#ifndef MY_CLS
+#define MY_CLS
 
 class Cls{
 public:
@@ -7,5 +8,4 @@ public:
   void SayHello();
 };
 
-
-
+#endif
