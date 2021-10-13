@@ -37,8 +37,8 @@ jobs:
           clang++ -c main.cpp
           clang++ src.cpp main.cpp -o hello.out
           ./hello.out
-      # - name: build using make
-      #   run: |
-      #     make
-      #     ./hello.out
+      - name: build using make
+        run: |
+          make
+          ./output.out
 
