@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
-# set the project name
+set (CMAKE_CXX_STANDARD 11)
+
 project(HelloHeader)
 
 file(GLOB SOURCES
@@ -8,7 +9,7 @@ file(GLOB SOURCES
     *.cpp
 )
 
+message(STATUS "the SOURCES variable is ${SOURCES} !!")
 
-# add the executable
 add_executable(HelloHeader ${SOURCES})
 
