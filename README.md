@@ -15,6 +15,9 @@ g++ -c src.cpp
 g++ main.o src.o -o output.out
 ```
 
+### Note
+`-c`: means to create an intermediary object file, rather than an executable
+
 ## How to run
 ```
 ./output.out
